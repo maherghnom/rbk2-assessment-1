@@ -6,10 +6,18 @@ var makeHashTable = function() {
     _storage: [],
     retrieve: function(key) {
       //your code is here
+
+
     },
 
     insert: function(key, value) {
-      //your code is here
+      //var index=hashFn(key,max)
+      var bucket=[];
+      var index=hashFn(bucket,max);
+      _storage[index]=bucket;
+      var index=hashFn(key,max);
+      _storage[index]=[key,max];
+
   };
 };
 
