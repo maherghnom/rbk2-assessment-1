@@ -3,3 +3,14 @@
 
 ## Queue vs. Stack
 Please write your explanation below.
+
+
+
+
+===== Stack =====
+-first in last out.
+
+
+
+===== Queue =====
+-last in last out.
