@@ -1,1 +1,6 @@
-// your code here
+
+
+Array.prototype.first=function(){
+	return this[0]
+}
+
